@@ -101,14 +101,9 @@ create table payment_method
 );
 alter table payment_method modify method_payment_desciption varchar(20);
 insert into payment_method values('1', 'Credit Card');
-INSERT INTO payment_method VALUES ('2', 'PayPal');
-INSERT INTO payment_method VALUES ('3', 'Venmo');
-INSERT INTO payment_method VALUES ('4', 'Google Pay');
-INSERT INTO payment_method VALUES ('5', 'Apple Pay');
 INSERT INTO payment_method VALUES ('6', 'Bank Transfer');
 INSERT INTO payment_method VALUES ('7', 'Cash');
-INSERT INTO payment_method VALUES ('8', 'Bitcoin');
-INSERT INTO payment_method VALUES ('9', 'Stripe');
+
 
 show tables;
 select * from hotel;
